@@ -16,7 +16,7 @@ The image can be pulled from both [DockerHub](https://hub.docker.com/r/afonsoc12
 For simplicity and to be [k8s](https://kubernetes.io/) [CronJob](https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs/) friendly, it does not include any scheduling. The container will start, run the script and exit.
 
 ```shell
-# You can also specify a version as the tag, such as afonsoc12/cloudflare-ddns:2022.10.16
+# You can also specify a version as the tag, such as afonsoc12/cloudflare-ddns:2022.10.17
 docker pull afonsoc12/cloudflare-ddns:latest
 
 # Run container once
