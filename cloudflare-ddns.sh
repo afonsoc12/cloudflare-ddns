@@ -1,10 +1,10 @@
 #!/bin/sh
 
 # Cloudflare API Token. Must have permission `Zone - Zone - Read` and `Zone - DNS - Edit`. Zone Resources can be `Include - Specific zone - mydomain.xyz`.
-api_token="${CLOUDFLARE_API_TOKEN:?Variable not set or empty}" #"YRCgGjqfX6gjlm4npWQx9XQVoGg1lqlPUquBCOU7"
+api_token="${CLOUDFLARE_API_TOKEN:?Variable not set or empty}"
 
 # Cloudflare Zone ID. Can be found in the "Overview" tab of your domain.
-zone_id="${CLOUDFLARE_ZONE_ID:?Variable not set or empty}" #"d7127dbf18c7d0995a8db4a2ddb3bb81"
+zone_id="${CLOUDFLARE_ZONE_ID:?Variable not set or empty}"
 
 # Cloudflare record to be updated with new IP.
 record_name="${CLOUDFLARE_RECORD_NAME:?Variable not set or empty}" #"uk.ip.serveris.online"
