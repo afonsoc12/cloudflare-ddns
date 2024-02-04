@@ -9,6 +9,8 @@
 
 A lightweight script to dynamically update DNS records using [cloudflare](https://cloudflare.com) API. It is packaged as docker container based on [alpine](https://hub.docker.com/_/alpine) image, built for `linux/amd64`, `linux/arm64` and `linux/arm/v7` architectures.
 
+> Note: Archiving this repo in favour of [hotio's cloudflareddns](https://github.com/hotio/cloudflareddns). Please check that project for more information.
+
 # Instalation
 
 The image can be pulled from both [DockerHub](https://hub.docker.com/r/afonsoc12/cloudflare-ddns) and [ghcr.io](https://github.com/afonsoc12/cloudflare-ddns/pkgs/container/cloudflare-ddns) container registries.
